@@ -200,6 +200,8 @@ i {
   }
 }
 @media only screen and (max-width: 1271px){
+  
+  
   .hero {
     display: default;
     background-image: url(/img/Pineapple.jfif);
@@ -221,6 +223,7 @@ i {
     margin-bottom: 0;
     padding: 0;
     color: #009b3a;
+    background-color: #EDEFE9;
   }
   
   h2 {
@@ -256,13 +259,14 @@ i {
   }
 
   .navbar {
-    height: 3vh;  
+    height: 8vh;  
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 4vh;
     text-align: center;
     margin-left: 0;
+    background-color: #EDEFE9;
   }
   
   .navbar {
