@@ -65,7 +65,7 @@ body::-webkit-scrollbar-thumb {
   flex-direction: column;
   width: 100%;
   margin: 0;
-  background-image: url(/img/Hero2.jfif);
+  background-image: url(img/Hero2.jfif);
   background-repeat: no-repeat;
   background-position-x: 78.5%;
   background-size: contain;
@@ -141,7 +141,7 @@ i {
 @media only screen and (max-width: 1271px){
   .hero {
     display: default;
-    background-image: url(/img/Pineapple.jfif);
+    background-image: url(img/Pineapple.jfif);
     background-repeat: no-repeat;
     background-position-x: 0;
     background-position-y: 30px;
