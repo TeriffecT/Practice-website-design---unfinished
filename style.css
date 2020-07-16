@@ -65,7 +65,7 @@ body::-webkit-scrollbar-thumb {
   flex-direction: column;
   width: 100%;
   margin: 0;
-  background-image: url(img/Hero2.jfif);
+  background-image: url(/img/Hero2.jfif);
   background-repeat: no-repeat;
   background-position-x: 78.5%;
   background-size: contain;
@@ -85,6 +85,7 @@ h1 {
 }
 
 h2 {
+  display: inline;
   margin-right: auto;
   margin-left: 15rem;
   font-family: 'Kreon', serif;
@@ -137,11 +138,71 @@ i {
   height: 100vh;
 }
 
+
+.slider {
+  max-height: 1002px;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 8vh 0;
+  flex-direction: column;
+}
+
+.slideimg {
+  background-image: url(/img/cake.jfif);
+  width: 50%;
+  height: 90%;
+  max-height: 1002px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: 15s slider infinite;
+  background-position: center;
+  overflow: hidden;
+  border: 10px solid #fed100;
+}
+
+.h2 {
+  font-family: 'Kreon', serif;
+  font-weight: 600;
+  font-size: 1.8em;
+  border-bottom: 4px solid #fed100;
+  margin: 6vh 0;
+}
+
+
+
+
+
+@keyframes slider {
+  25% {
+    background-image: url(/img/ACTUA.jpg);
+  }
+  50% {
+    background-image: url(/img/Hero2.jfif);
+  }
+  75% {
+    background-image: url(/img/Pineapple.jfif);
+  }
+  100% {
+    background-image: url(/img/cake.jfif);
+  }
+}
+
+
 /* SCREEN SIZES */
+
+@media only screen and(min-width: 1100px){
+  .slideimg {
+    max-width:100%;
+    max-height:100%;
+    background-position-y: -100px;
+  }
+}
 @media only screen and (max-width: 1271px){
   .hero {
     display: default;
-    background-image: url(img/Pineapple.jfif);
+    background-image: url(/img/Pineapple.jfif);
     background-repeat: no-repeat;
     background-position-x: 0;
     background-position-y: 30px;
