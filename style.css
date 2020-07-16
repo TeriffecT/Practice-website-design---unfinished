@@ -76,7 +76,7 @@ h1 {
   margin-left: 15rem;
   justify-content: flex-end;
   align-items: center;
-  padding-top: 30vh;
+  margin-top: 25.5vh;
   font-family: 'Kreon', serif;
   font-weight: 700;
   font-size: 2em;
@@ -202,7 +202,7 @@ i {
 @media only screen and (max-width: 1271px){
   .hero {
     display: default;
-    background-image: none;
+    background-image: url(/img/Pineapple.jfif);
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
