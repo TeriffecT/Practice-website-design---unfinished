@@ -76,7 +76,7 @@ h1 {
   margin-left: 15rem;
   justify-content: flex-end;
   align-items: center;
-  margin-top: 30vh;
+  padding-top: 30vh;
   font-family: 'Kreon', serif;
   font-weight: 700;
   font-size: 2em;
@@ -200,16 +200,15 @@ i {
   }
 }
 @media only screen and (max-width: 1271px){
-  
-  
   .hero {
     display: default;
-    background-image: url(/img/Pineapple.jfif);
+    background-image: none;
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
     background-position:center;
     text-align: center;
+    margin: 0;
   }
 
   h1 {
@@ -270,7 +269,7 @@ i {
   }
   
   .navbar {
-    margin-top: 20px;
+    padding-top: 20px;
     margin-right: 0;
     font-family: 'Sedgwick Ave Display', cursive;
     font-size: 1.8em;
