@@ -204,20 +204,22 @@ i {
     display: default;
     background-image: url(/img/Pineapple.jfif);
     background-repeat: no-repeat;
-    background-position-x: 0;
-    background-position-y: 30px;
     background-size: cover;
     align-items: center;
+    background-position:center;
+    text-align: center;
   }
 
   h1 {
+    width: 100%;
     text-align: center;
+    left: 0;
     top: 0;
-    left: 10%;
     margin-right: 0;
     margin-top: 0;
     margin-left: 0;
     margin-bottom: 0;
+    padding: 0;
     color: #009b3a;
   }
   
@@ -256,9 +258,11 @@ i {
   .navbar {
     height: 3vh;  
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     margin-bottom: 4vh;
+    text-align: center;
+    margin-left: 0;
   }
   
   .navbar {
@@ -266,7 +270,6 @@ i {
     margin-right: 0;
     font-family: 'Sedgwick Ave Display', cursive;
     font-size: 1.8em;
-    margin-left: 5%;
   }
 
   .nav-link {
