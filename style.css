@@ -65,7 +65,7 @@ body::-webkit-scrollbar-thumb {
   flex-direction: column;
   width: 100%;
   margin: 0;
-  background-image: url(/img/Hero2.jfif);
+  background-image: url(img/Hero2.jfif);
   background-repeat: no-repeat;
   background-position-x: 78.5%;
   background-size: contain;
@@ -150,7 +150,7 @@ i {
 }
 
 .slideimg {
-  background-image: url(/img/cake.jfif);
+  background-image: url(img/cake.jfif);
   width: 50%;
   height: 90%;
   max-height: 1002px;
@@ -176,16 +176,16 @@ i {
 
 @keyframes slider {
   25% {
-    background-image: url(/img/ACTUA.jpg);
+    background-image: url(img/ACTUA.jpg);
   }
   50% {
-    background-image: url(/img/Hero2.jfif);
+    background-image: url(img/Hero2.jfif);
   }
   75% {
-    background-image: url(/img/Pineapple.jfif);
+    background-image: url(img/Pineapple.jfif);
   }
   100% {
-    background-image: url(/img/cake.jfif);
+    background-image: url(img/cake.jfif);
   }
 }
 
@@ -202,7 +202,7 @@ i {
 @media only screen and (max-width: 1271px){
   .hero {
     display: default;
-    background-image: url(/img/Pineapple.jfif);
+    background-image: url(img/Pineapple.jfif);
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
